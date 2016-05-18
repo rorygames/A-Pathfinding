@@ -1,30 +1,31 @@
-﻿Build started 27/04/2016 18:27:11.
-     1>Project "F:\AI Pathfinding\Assignment\Pathfinding\Pathfinding\Pathfinding.vcxproj" on node 2 (Build target(s)).
+﻿Build started 18/05/2016 18:27:43.
+     1>Project "D:\Users\Rory\Documents\GitHub\A-Pathfinding\Pathfinding\Pathfinding.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (A Pathfinding.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\AI Pathfinding\Assignment\Pathfinding\sdl2\include" /I"F:\AI Pathfinding\Assignment\Pathfinding\sdl2_ttf\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Button.cpp Main.cpp Map.cpp PathAlgorithm.cpp Player.cpp Scene.cpp System.cpp Text.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Users\Rory\Documents\GitHub\A-Pathfinding\sdl2\include" /I"D:\Users\Rory\Documents\GitHub\A-Pathfinding\sdl2_ttf\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Button.cpp ..\src\Main.cpp ..\src\Map.cpp ..\src\PathAlgorithm.cpp ..\src\Player.cpp ..\src\Scene.cpp ..\src\System.cpp ..\src\Text.cpp
          Button.cpp
          Main.cpp
-     1>f:\ai pathfinding\assignment\pathfinding\pathfinding\System.h(39): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users\rory\documents\github\a-pathfinding\src\System.h(39): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
          Map.cpp
          PathAlgorithm.cpp
-     1>PathAlgorithm.cpp(266): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
-     1>PathAlgorithm.cpp(267): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\PathAlgorithm.cpp(266): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\PathAlgorithm.cpp(267): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
          Player.cpp
-     1>Player.cpp(121): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>Player.cpp(122): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
-     1>Player.cpp(161): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>Player.cpp(165): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>Player.cpp(180): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
-     1>Player.cpp(184): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\Player.cpp(121): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\Player.cpp(122): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\src\Player.cpp(161): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\Player.cpp(165): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\Player.cpp(180): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\src\Player.cpp(184): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
          Scene.cpp
          System.cpp
-     1>f:\ai pathfinding\assignment\pathfinding\pathfinding\System.h(39): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
-     1>System.cpp(96): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>System.cpp(113): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
-     1>System.cpp(122): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users\rory\documents\github\a-pathfinding\src\System.h(39): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\System.cpp(96): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>..\src\System.cpp(113): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>..\src\System.cpp(122): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
          Text.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\AI Pathfinding\Assignment\Pathfinding\Release\Pathfinding.exe" /NOLOGO /LIBPATH:"F:\AI Pathfinding\Assignment\Pathfinding\sdl2\lib\x86" /LIBPATH:"F:\AI Pathfinding\Assignment\Pathfinding\sdl2_image\lib\x86" /LIBPATH:"F:\AI Pathfinding\Assignment\Pathfinding\sdl2_ttf\lib\x86" SDL2.lib SDL2main.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\AI Pathfinding\Assignment\Pathfinding\Release\Pathfinding.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\AI Pathfinding\Assignment\Pathfinding\Release\Pathfinding.lib" /MACHINE:X86 /SAFESEH Release\Button.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Rory\Documents\GitHub\A-Pathfinding\Release\Pathfinding.exe" /NOLOGO /LIBPATH:"D:\Users\Rory\Documents\GitHub\A-Pathfinding\sdl2\lib\x86" /LIBPATH:"D:\Users\Rory\Documents\GitHub\A-Pathfinding\sdl2_image\lib\x86" /LIBPATH:"D:\Users\Rory\Documents\GitHub\A-Pathfinding\sdl2_ttf\lib\x86" SDL2.lib SDL2main.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Rory\Documents\GitHub\A-Pathfinding\Release\Pathfinding.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Rory\Documents\GitHub\A-Pathfinding\Release\Pathfinding.lib" /MACHINE:X86 /SAFESEH Release\Button.obj
          Release\Main.obj
          Release\Map.obj
          Release\PathAlgorithm.obj
@@ -34,9 +35,9 @@
          Release\Text.obj
          Generating code
          Finished generating code
-         Pathfinding.vcxproj -> F:\AI Pathfinding\Assignment\Pathfinding\Release\Pathfinding.exe
-     1>Done Building Project "F:\AI Pathfinding\Assignment\Pathfinding\Pathfinding\Pathfinding.vcxproj" (Build target(s)).
+         Pathfinding.vcxproj -> D:\Users\Rory\Documents\GitHub\A-Pathfinding\Release\Pathfinding.exe
+     1>Done Building Project "D:\Users\Rory\Documents\GitHub\A-Pathfinding\Pathfinding\Pathfinding.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:02.54
+Time Elapsed 00:00:02.15
